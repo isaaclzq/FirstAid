@@ -1,0 +1,4 @@
+LEVEL_OF_CONSCIOUS
+conscious
+unconscious
+

@@ -1,0 +1,32 @@
+NeedHelpIntent I need help with {Scenario}
+NeedHelpIntent I want help with {Scenario}
+NeedHelpIntent I need help with {Scenario}
+NeedHelpIntent {Scenario}
+NeedHelpIntent someone is having a {Scenario}
+NeedHelpIntent I have someone having {Scenario}
+NeedHelpIntent someone gets {Scenario}
+NeedHelpIntent someone seems to be {Scenario}
+
+whatToSayIntent what can I say
+whatToSayIntent what to say
+
+HowToCPRIntent how do i do {CPR}
+
+restartIntent restart {CPR}
+restartOnlyIntent restart
+
+readyIntent ready
+readyIntent I am ready
+
+doneIntent done
+doneIntent I am done
+
+chokingIntent {level}
+
+stopIntent stop {Scenario}
+stopIntent quit {Scenario}
+ 
+DontKnowIntent i don't know
+DontKnowIntent don't know
+DontKnowIntent dunno
+

@@ -1,0 +1,77 @@
+{
+  "intents": [
+  {
+    "intent": "HowToCPRIntent",
+    "slots": [
+    {
+      "name": "CPR",
+      "type": "CPRStep"
+    }
+    ]
+  },
+  {
+    "intent": "NeedHelpIntent",
+    "slots": [
+      {
+        "name": "Scenario",
+        "type": "LIST_OF_FUNCTIONS"
+      }
+      ] 
+  },
+  {
+    "intent": "stopIntent",
+    "slots": [
+      {
+        "name": "Scenario",
+        "type": "LIST_OF_FUNCTIONS"
+      }
+    ]
+  },
+  {
+    "intent": "readyIntent"
+  },
+  {
+    "intent": "restartOnlyIntent"
+  },
+  {
+    "intent": "restartIntent",
+    "slots": [
+      {
+        "name":"CPR",
+        "type":"CPRStep"
+      }
+    ]
+  },
+  {
+    "intent": "whatToSayIntent"
+  },
+  {
+    "intent": "doneIntent"
+  },
+  {
+    "intent": "DontKnowIntent"
+  },
+  {
+    "intent": "chokingIntent",
+    "slots" : [
+      {
+        "name" : "level",
+        "type" : "LEVEL_OF_CONSCIOUS"
+      }
+    ]
+  },
+  {
+    "intent": "AMAZON.HelpIntent"
+  },
+  {
+    "intent": "AMAZON.YesIntent"
+  },
+  {
+    "intent": "AMAZON.NoIntent"
+  },
+  {
+    "intent": "AMAZON.StopIntent"
+  }
+  ]
+}
+

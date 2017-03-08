@@ -1,0 +1,2179 @@
+Input: ask first aid
+Lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.6512c157-29a8-4512-9881-f1becbff942b",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": true
+  },
+  "request": {
+    "type": "LaunchRequest",
+    "requestId": "EdwRequestId.743057d4-47f5-4716-b988-987baf01f62e",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:39:31Z"
+  },
+  "version": "1.0"
+}
+Lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "First Aid here, What can I help you with?"
+    },
+    "card": {
+      "content": "First Aid here, What can I help you with?",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "First Aid here, What can I help you with?"
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "prevAnswer": "First Aid here, What can I help you with?",
+    "needDetail": true,
+    "stopRequest": false,
+    "command": [
+      " i need help with."
+    ]
+  }
+}
+
+input: what can i say
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.6512c157-29a8-4512-9881-f1becbff942b",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": "First Aid here, What can I help you with?",
+      "needDetail": true,
+      "stopRequest": false,
+      "command": [
+        " i need help with."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.8f1ee620-51d6-460f-b1dc-977538c49252",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:41:57Z",
+    "intent": {
+      "name": "whatToSayIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Here are the available commands. 1. Checking an Injured Adult. 2. Choking. 3. CPR. 4. AED. 5. Controlling Bleeding. 6. Burns. 7. Poisoning. 8. Neck Injuries. 9. Spinal Injuries. 10. Stroke. And You may start the sentence with I need help with ..."
+    },
+    "card": {
+      "content": "Here are the available commands. 1. Checking an Injured Adult. 2. Choking. 3. CPR. 4. AED. 5. Controlling Bleeding. 6. Burns. 7. Poisoning. 8. Neck Injuries. 9. Spinal Injuries. 10. Stroke. And You may start the sentence with I need help with ...",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "Here are the available commands. 1. Checking an Injured Adult. 2. Choking. 3. CPR. 4. AED. 5. Controlling Bleeding. 6. Burns. 7. Poisoning. 8. Neck Injuries. 9. Spinal Injuries. 10. Stroke. And You may start the sentence with I need help with ..."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "command": [
+      " i need help with."
+    ]
+  }
+}
+
+input: checking an injured adult
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.6512c157-29a8-4512-9881-f1becbff942b",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "command": [
+        " i need help with."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.17cb3af1-3154-490b-bd6f-b1d25741afba",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:43:11Z",
+    "intent": {
+      "name": "NeedHelpIntent",
+      "slots": {
+        "Scenario": {
+          "name": "Scenario",
+          "value": "checking an injured adult"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "dial 911."
+    },
+    "card": {
+      "content": "dial 911.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "dial 911."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "command": [
+      " i need help with."
+    ]
+  }
+}
+
+input: AED
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.6512c157-29a8-4512-9881-f1becbff942b",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "command": [
+        " i need help with."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.1fc2d716-f2bb-4efa-9870-0831a950a692",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:45:18Z",
+    "intent": {
+      "name": "restartOnlyIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "the command is not supported. You can find out what commands are supported by calling 'what can i do'."
+    },
+    "card": {
+      "content": "the command is not supported. You can find out what commands are supported by calling 'what can i do'.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "the command is not supported. You can find out what commands are supported by calling 'what can i do'."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "command": [
+      " i need help with."
+    ]
+  }
+}
+input: controlling bleeding
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.6512c157-29a8-4512-9881-f1becbff942b",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "command": [
+        " i need help with."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.bf322f42-143a-4b13-bada-7e9f9ce9775f",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:46:18Z",
+    "intent": {
+      "name": "NeedHelpIntent",
+      "slots": {
+        "Scenario": {
+          "name": "Scenario",
+          "value": "controlling bleeding"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "dial 911."
+    },
+    "card": {
+      "content": "dial 911.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "dial 911."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "command": [
+      " i need help with."
+    ]
+  }
+}
+
+input: Burns
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.6512c157-29a8-4512-9881-f1becbff942b",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "command": [
+        " i need help with."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.fb60fe1b-85d7-4cd9-8a45-f04e7baf132d",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:46:41Z",
+    "intent": {
+      "name": "NeedHelpIntent",
+      "slots": {
+        "Scenario": {
+          "name": "Scenario",
+          "value": "burns"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "dial 911."
+    },
+    "card": {
+      "content": "dial 911.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "dial 911."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "command": [
+      " i need help with."
+    ]
+  }
+}
+
+input: Poisoning
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.6512c157-29a8-4512-9881-f1becbff942b",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "command": [
+        " i need help with."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.81f552d3-1cfa-4457-8fea-98c1570899dd",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:47:09Z",
+    "intent": {
+      "name": "NeedHelpIntent",
+      "slots": {
+        "Scenario": {
+          "name": "Scenario",
+          "value": "poisoning"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "dial 911."
+    },
+    "card": {
+      "content": "dial 911.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "dial 911."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "command": [
+      " i need help with."
+    ]
+  }
+}
+
+input: Neck injuries
+lambda request: 
+{
+  "session": {
+    "sessionId": "SessionId.6512c157-29a8-4512-9881-f1becbff942b",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "command": [
+        " i need help with."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.7bc7362d-58f7-4774-8ae0-ee512bc31b1c",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:47:41Z",
+    "intent": {
+      "name": "NeedHelpIntent",
+      "slots": {
+        "Scenario": {
+          "name": "Scenario",
+          "value": "neck injuries"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "dial 911."
+    },
+    "card": {
+      "content": "dial 911.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "dial 911."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "command": [
+      " i need help with."
+    ]
+  }
+}
+
+input: Spinal injuries
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.a817cac2-2e76-4c71-9ce6-2988190a4aa3",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "command": [
+        " i need help with."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.9e064023-9681-41fe-a993-f506e44b4eb3",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:49:19Z",
+    "intent": {
+      "name": "NeedHelpIntent",
+      "slots": {
+        "Scenario": {
+          "name": "Scenario",
+          "value": "spinal injuries"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "dial 911."
+    },
+    "card": {
+      "content": "dial 911.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "dial 911."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "command": [
+      " i need help with."
+    ]
+  }
+}
+
+input: stroke
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.a817cac2-2e76-4c71-9ce6-2988190a4aa3",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "command": [
+        " i need help with."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.4fc1d993-9317-49c1-b5b8-5fd435d22d89",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:49:44Z",
+    "intent": {
+      "name": "NeedHelpIntent",
+      "slots": {
+        "Scenario": {
+          "name": "Scenario",
+          "value": "stroke"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "dial 911."
+    },
+    "card": {
+      "content": "dial 911.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "dial 911."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "command": [
+      " i need help with."
+    ]
+  }
+}
+
+input: choking
+lambda request :
+{
+  "session": {
+    "sessionId": "SessionId.a817cac2-2e76-4c71-9ce6-2988190a4aa3",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "command": [
+        " i need help with."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.8187141b-4253-4cda-91de-588f12bcb050",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:50:19Z",
+    "intent": {
+      "name": "NeedHelpIntent",
+      "slots": {
+        "Scenario": {
+          "name": "Scenario",
+          "value": "choking"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": " Is the person conscious or unconscious?"
+    },
+    "card": {
+      "content": " Is the person conscious or unconscious?",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": " Is the person conscious or unconscious?"
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "prevAnswer": " Is the person conscious or unconscious?",
+    "curFunction": "Choking",
+    "command": [
+      " conscious.",
+      " unconscious."
+    ]
+  }
+}
+
+input: conscious
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.a817cac2-2e76-4c71-9ce6-2988190a4aa3",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": " Is the person conscious or unconscious?",
+      "curFunction": "Choking",
+      "command": [
+        " conscious.",
+        " unconscious."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.44e76bda-bff6-481a-831a-29909d654d78",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:50:46Z",
+    "intent": {
+      "name": "chokingIntent",
+      "slots": {
+        "level": {
+          "name": "level",
+          "value": "conscious"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "dial 911."
+    },
+    "card": {
+      "content": "dial 911.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "dial 911."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "command": [
+      " i need help with."
+    ]
+  }
+}
+
+input: unconscious
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.a53d5f16-a239-4c06-a0dc-8ace3e95a583",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": " Is the person conscious or unconscious?",
+      "curFunction": "Choking",
+      "command": [
+        " conscious.",
+        " unconscious."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.c47cebc9-dd38-48cb-a0e0-849ee0946b3c",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:51:14Z",
+    "intent": {
+      "name": "restartOnlyIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "the command is not supported. You can find out what commands are supported by calling 'what can i do'."
+    },
+    "card": {
+      "content": "the command is not supported. You can find out what commands are supported by calling 'what can i do'.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "the command is not supported. You can find out what commands are supported by calling 'what can i do'."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "prevAnswer": " Is the person conscious or unconscious?",
+    "curFunction": "Choking",
+    "command": [
+      " conscious.",
+      " unconscious."
+    ]
+  }
+}
+
+input: CPR
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.97fcb495-1ae2-4f56-b097-0a1a8a556d5a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "command": [
+        " i need help with."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.7e15c4af-eae7-462e-b299-2c5e3a3ba326",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:52:57Z",
+    "intent": {
+      "name": "NeedHelpIntent",
+      "slots": {
+        "Scenario": {
+          "name": "Scenario",
+          "value": "CPR"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "You will do cycles of CPR, but you should stop when you encounter one of the following situations: 1. You find an obvious sign of life, such as breathing. 2. An AED is ready to use. 3. Another trained responder or EMS personnel take over. 4. You are too exhausted to continue. 5. The scene becomes unsafe. when you are ready to begin, say 'ready'."
+    },
+    "card": {
+      "content": "You will do cycles of CPR, but you should stop when you encounter one of the following situations: 1. You find an obvious sign of life, such as breathing. 2. An AED is ready to use. 3. Another trained responder or EMS personnel take over. 4. You are too exhausted to continue. 5. The scene becomes unsafe. when you are ready to begin, say 'ready'.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "You will do cycles of CPR, but you should stop when you encounter one of the following situations: 1. You find an obvious sign of life, such as breathing. 2. An AED is ready to use. 3. Another trained responder or EMS personnel take over. 4. You are too exhausted to continue. 5. The scene becomes unsafe. when you are ready to begin, say 'ready'."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "prevAnswer": "You will do cycles of CPR, but you should stop when you encounter one of the following situations: 1. You find an obvious sign of life, such as breathing. 2. An AED is ready to use. 3. Another trained responder or EMS personnel take over. 4. You are too exhausted to continue. 5. The scene becomes unsafe. when you are ready to begin, say 'ready'.",
+    "needDetail": true,
+    "step": -1,
+    "curFunction": "CPR",
+    "command": [
+      " ready.",
+      " stop CPR."
+    ]
+  }
+}
+
+input: ready
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.97fcb495-1ae2-4f56-b097-0a1a8a556d5a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": "You will do cycles of CPR, but you should stop when you encounter one of the following situations: 1. You find an obvious sign of life, such as breathing. 2. An AED is ready to use. 3. Another trained responder or EMS personnel take over. 4. You are too exhausted to continue. 5. The scene becomes unsafe. when you are ready to begin, say 'ready'.",
+      "needDetail": true,
+      "step": -1,
+      "curFunction": "CPR",
+      "command": [
+        " ready.",
+        " stop CPR."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.0755b89b-6a86-4103-a73d-01fc21773377",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:53:31Z",
+    "intent": {
+      "name": "readyIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'."
+    },
+    "card": {
+      "content": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "prevAnswer": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'.",
+    "needDetail": true,
+    "step": 0,
+    "curFunction": "CPR",
+    "command": [
+      " ready.",
+      " how do I do chest compressions or breaths.",
+      " restart chest compressions or breaths.",
+      " restart.",
+      " stop CPR."
+    ]
+  }
+}
+
+input : ready
+{
+  "session": {
+    "sessionId": "SessionId.97fcb495-1ae2-4f56-b097-0a1a8a556d5a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'.",
+      "needDetail": true,
+      "step": 0,
+      "curFunction": "CPR",
+      "command": [
+        " ready.",
+        " how do I do chest compressions or breaths.",
+        " restart chest compressions or breaths.",
+        " restart.",
+        " stop CPR."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.1e1808b9-da3a-4ed7-b068-4f8273be6b5d",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:54:05Z",
+    "intent": {
+      "name": "readyIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+
+input :ready
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.97fcb495-1ae2-4f56-b097-0a1a8a556d5a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'.",
+      "needDetail": true,
+      "step": 0,
+      "curFunction": "CPR",
+      "command": [
+        " ready.",
+        " how do I do chest compressions or breaths.",
+        " restart chest compressions or breaths.",
+        " restart.",
+        " stop CPR."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.1e1808b9-da3a-4ed7-b068-4f8273be6b5d",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:54:05Z",
+    "intent": {
+      "name": "readyIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "SSML",
+      "ssml": " <speak> when you are done with 30 compressions, say 'done'. You should follow my rhythm. 1 <break time=\"1ms\" /> 2 <break time=\"1ms\" /> 3 <break time=\"1ms\" /> 4 <break time=\"1ms\" /> 5 <break time=\"1ms\" /> 6 <break time=\"1ms\" /> 7 <break time=\"1ms\" /> 8 <break time=\"1ms\" /> 9 <break time=\"1ms\" /> 10 <break time=\"1ms\" /> 1 <break time=\"1ms\" /> 2 <break time=\"1ms\" /> 3 <break time=\"1ms\" /> 4 <break time=\"1ms\" /> 5 <break time=\"1ms\" /> 6 <break time=\"1ms\" /> 7 <break time=\"1ms\" /> 8 <break time=\"1ms\" /> 9 <break time=\"1ms\" /> 10 <break time=\"1ms\" /> 1 <break time=\"1ms\" /> 2 <break time=\"1ms\" /> 3 <break time=\"1ms\" /> 4 <break time=\"1ms\" /> 5 <break time=\"1ms\" /> 6 <break time=\"1ms\" /> 7 <break time=\"1ms\" /> 8 <break time=\"1ms\" /> 9 <break time=\"1ms\" /> 10 <break time=\"1ms\" /> </speak>"
+    },
+    "card": {
+      "content": " <speak> when you are done with 30 compressions, say 'done'. You should follow my rhythm. 1 <break time=\"1ms\" /> 2 <break time=\"1ms\" /> 3 <break time=\"1ms\" /> 4 <break time=\"1ms\" /> 5 <break time=\"1ms\" /> 6 <break time=\"1ms\" /> 7 <break time=\"1ms\" /> 8 <break time=\"1ms\" /> 9 <break time=\"1ms\" /> 10 <break time=\"1ms\" /> 1 <break time=\"1ms\" /> 2 <break time=\"1ms\" /> 3 <break time=\"1ms\" /> 4 <break time=\"1ms\" /> 5 <break time=\"1ms\" /> 6 <break time=\"1ms\" /> 7 <break time=\"1ms\" /> 8 <break time=\"1ms\" /> 9 <break time=\"1ms\" /> 10 <break time=\"1ms\" /> 1 <break time=\"1ms\" /> 2 <break time=\"1ms\" /> 3 <break time=\"1ms\" /> 4 <break time=\"1ms\" /> 5 <break time=\"1ms\" /> 6 <break time=\"1ms\" /> 7 <break time=\"1ms\" /> 8 <break time=\"1ms\" /> 9 <break time=\"1ms\" /> 10 <break time=\"1ms\" /> </speak>",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": " <speak> when you are done with 30 compressions, say 'done'. You should follow my rhythm. 1 <break time=\"1ms\" /> 2 <break time=\"1ms\" /> 3 <break time=\"1ms\" /> 4 <break time=\"1ms\" /> 5 <break time=\"1ms\" /> 6 <break time=\"1ms\" /> 7 <break time=\"1ms\" /> 8 <break time=\"1ms\" /> 9 <break time=\"1ms\" /> 10 <break time=\"1ms\" /> 1 <break time=\"1ms\" /> 2 <break time=\"1ms\" /> 3 <break time=\"1ms\" /> 4 <break time=\"1ms\" /> 5 <break time=\"1ms\" /> 6 <break time=\"1ms\" /> 7 <break time=\"1ms\" /> 8 <break time=\"1ms\" /> 9 <break time=\"1ms\" /> 10 <break time=\"1ms\" /> 1 <break time=\"1ms\" /> 2 <break time=\"1ms\" /> 3 <break time=\"1ms\" /> 4 <break time=\"1ms\" /> 5 <break time=\"1ms\" /> 6 <break time=\"1ms\" /> 7 <break time=\"1ms\" /> 8 <break time=\"1ms\" /> 9 <break time=\"1ms\" /> 10 <break time=\"1ms\" /> </speak>"
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "prevAnswer": " when you are done with 30 compressions, say 'done'. You should follow my rhythm.",
+    "needDetail": true,
+    "step": 1,
+    "curFunction": "CPR",
+    "command": [
+      " done.",
+      " how do I do chest compressions or breaths.",
+      " restart chest compressions or breaths.",
+      " restart.",
+      " stop CPR."
+    ]
+  }
+}
+
+input: what can i say
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.97fcb495-1ae2-4f56-b097-0a1a8a556d5a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": " when you are done with 30 compressions, say 'done'. You should follow my rhythm.",
+      "needDetail": true,
+      "step": 1,
+      "curFunction": "CPR",
+      "command": [
+        " done.",
+        " how do I do chest compressions or breaths.",
+        " restart chest compressions or breaths.",
+        " restart.",
+        " stop CPR."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.beda9ea3-94ea-425c-b4d7-c12aae32bc49",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:55:51Z",
+    "intent": {
+      "name": "whatToSayIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+lambda respons:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Here are the available commands.  1.  done. 2.  how do I do chest compressions or breaths. 3.  restart chest compressions or breaths. 4.  restart. 5.  stop CPR."
+    },
+    "card": {
+      "content": "Here are the available commands.  1.  done. 2.  how do I do chest compressions or breaths. 3.  restart chest compressions or breaths. 4.  restart. 5.  stop CPR.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "Here are the available commands.  1.  done. 2.  how do I do chest compressions or breaths. 3.  restart chest compressions or breaths. 4.  restart. 5.  stop CPR."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "prevAnswer": " when you are done with 30 compressions, say 'done'. You should follow my rhythm.",
+    "needDetail": true,
+    "step": 1,
+    "curFunction": "CPR",
+    "command": [
+      " done.",
+      " how do I do chest compressions or breaths.",
+      " restart chest compressions or breaths.",
+      " restart.",
+      " stop CPR."
+    ]
+  }
+}
+
+input: done
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.97fcb495-1ae2-4f56-b097-0a1a8a556d5a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": " when you are done with 30 compressions, say 'done'. You should follow my rhythm.",
+      "needDetail": true,
+      "step": 1,
+      "curFunction": "CPR",
+      "command": [
+        " done.",
+        " how do I do chest compressions or breaths.",
+        " restart chest compressions or breaths.",
+        " restart.",
+        " stop CPR."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.cfebae0e-4cc9-4440-9798-05d0ed2f9ead",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:56:23Z",
+    "intent": {
+      "name": "doneIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": " Now you will give 2 rescue breaths. Pay attention to the following:  1. Tilt the head back and lift the chin up. 2. Pinch the nose shut then make a complete seal over the person's mouth. 3. Blow in for about 1 second to make the chest clearly rise. 4. Give rescue breaths, one after the other. Note: If chest does not rise with rescue breaths, retilt the head and give another rescue breaths. when you are ready to begin, say 'ready'."
+    },
+    "card": {
+      "content": " Now you will give 2 rescue breaths. Pay attention to the following:  1. Tilt the head back and lift the chin up. 2. Pinch the nose shut then make a complete seal over the person's mouth. 3. Blow in for about 1 second to make the chest clearly rise. 4. Give rescue breaths, one after the other. Note: If chest does not rise with rescue breaths, retilt the head and give another rescue breaths. when you are ready to begin, say 'ready'.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": " Now you will give 2 rescue breaths. Pay attention to the following:  1. Tilt the head back and lift the chin up. 2. Pinch the nose shut then make a complete seal over the person's mouth. 3. Blow in for about 1 second to make the chest clearly rise. 4. Give rescue breaths, one after the other. Note: If chest does not rise with rescue breaths, retilt the head and give another rescue breaths. when you are ready to begin, say 'ready'."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "prevAnswer": " Now you will give 2 rescue breaths. Pay attention to the following:  1. Tilt the head back and lift the chin up. 2. Pinch the nose shut then make a complete seal over the person's mouth. 3. Blow in for about 1 second to make the chest clearly rise. 4. Give rescue breaths, one after the other. Note: If chest does not rise with rescue breaths, retilt the head and give another rescue breaths. when you are ready to begin, say 'ready'.",
+    "needDetail": true,
+    "step": 2,
+    "curFunction": "CPR",
+    "command": [
+      " ready.",
+      " how do I do chest compressions or breaths.",
+      " restart chest compressions or breaths.",
+      " restart.",
+      " stop CPR."
+    ]
+  }
+}
+
+input: ready
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.97fcb495-1ae2-4f56-b097-0a1a8a556d5a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": " Now you will give 2 rescue breaths. Pay attention to the following:  1. Tilt the head back and lift the chin up. 2. Pinch the nose shut then make a complete seal over the person's mouth. 3. Blow in for about 1 second to make the chest clearly rise. 4. Give rescue breaths, one after the other. Note: If chest does not rise with rescue breaths, retilt the head and give another rescue breaths. when you are ready to begin, say 'ready'.",
+      "needDetail": true,
+      "step": 2,
+      "curFunction": "CPR",
+      "command": [
+        " ready.",
+        " how do I do chest compressions or breaths.",
+        " restart chest compressions or breaths.",
+        " restart.",
+        " stop CPR."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.68afb1f7-8335-4269-9b7e-613088ce6dea",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:57:03Z",
+    "intent": {
+      "name": "readyIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": " when you are done with 2 rescue breaths, say 'done'. You may begin."
+    },
+    "card": {
+      "content": " when you are done with 2 rescue breaths, say 'done'. You may begin.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": " when you are done with 2 rescue breaths, say 'done'. You may begin."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "prevAnswer": " when you are done with 2 rescue breaths, say 'done'. You may begin.",
+    "step": 3,
+    "curFunction": "CPR",
+    "command": [
+      " done.",
+      " how do I do chest compressions or breaths.",
+      " restart chest compressions or breaths.",
+      " restart.",
+      " stop CPR."
+    ]
+  }
+}
+
+input: done
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.97fcb495-1ae2-4f56-b097-0a1a8a556d5a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": " when you are done with 2 rescue breaths, say 'done'. You may begin.",
+      "step": 3,
+      "curFunction": "CPR",
+      "command": [
+        " done.",
+        " how do I do chest compressions or breaths.",
+        " restart chest compressions or breaths.",
+        " restart.",
+        " stop CPR."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.c36bf1b7-770b-4160-a5a4-19b72e4d7e1f",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:57:24Z",
+    "intent": {
+      "name": "doneIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": " Now you will give 30 chest compressions. when you are ready to begin, say 'ready'."
+    },
+    "card": {
+      "content": " Now you will give 30 chest compressions. when you are ready to begin, say 'ready'.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": " Now you will give 30 chest compressions. when you are ready to begin, say 'ready'."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "prevAnswer": " Now you will give 30 chest compressions. when you are ready to begin, say 'ready'.",
+    "step": 0,
+    "curFunction": "CPR",
+    "command": [
+      " ready.",
+      " how do I do chest compressions or breaths.",
+      " restart chest compressions or breaths.",
+      " restart.",
+      " stop CPR."
+    ]
+  }
+}
+
+input: ready
+{
+  "session": {
+    "sessionId": "SessionId.97fcb495-1ae2-4f56-b097-0a1a8a556d5a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": " when you are done with 2 rescue breaths, say 'done'. You may begin.",
+      "step": 3,
+      "curFunction": "CPR",
+      "command": [
+        " done.",
+        " how do I do chest compressions or breaths.",
+        " restart chest compressions or breaths.",
+        " restart.",
+        " stop CPR."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.c36bf1b7-770b-4160-a5a4-19b72e4d7e1f",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:57:24Z",
+    "intent": {
+      "name": "doneIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": " Now you will give 30 chest compressions. when you are ready to begin, say 'ready'."
+    },
+    "card": {
+      "content": " Now you will give 30 chest compressions. when you are ready to begin, say 'ready'.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": " Now you will give 30 chest compressions. when you are ready to begin, say 'ready'."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "prevAnswer": " Now you will give 30 chest compressions. when you are ready to begin, say 'ready'.",
+    "step": 0,
+    "curFunction": "CPR",
+    "command": [
+      " ready.",
+      " how do I do chest compressions or breaths.",
+      " restart chest compressions or breaths.",
+      " restart.",
+      " stop CPR."
+    ]
+  }
+}
+
+input: restart
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.97fcb495-1ae2-4f56-b097-0a1a8a556d5a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": " Now you will give 30 chest compressions. when you are ready to begin, say 'ready'.",
+      "step": 0,
+      "curFunction": "CPR",
+      "command": [
+        " ready.",
+        " how do I do chest compressions or breaths.",
+        " restart chest compressions or breaths.",
+        " restart.",
+        " stop CPR."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.a5c7aae6-c073-4b1d-bf92-2d552fd8c49d",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:58:32Z",
+    "intent": {
+      "name": "restartOnlyIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'."
+    },
+    "card": {
+      "content": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "prevAnswer": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'.",
+    "step": 0,
+    "curFunction": "CPR",
+    "command": [
+      " ready.",
+      " how do I do chest compressions or breaths.",
+      " restart chest compressions or breaths.",
+      " restart.",
+      " stop CPR."
+    ]
+  }
+}
+
+input: restart breaths (rescue breaths)
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.97fcb495-1ae2-4f56-b097-0a1a8a556d5a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'.",
+      "step": 0,
+      "curFunction": "CPR",
+      "command": [
+        " ready.",
+        " how do I do chest compressions or breaths.",
+        " restart chest compressions or breaths.",
+        " restart.",
+        " stop CPR."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.2a86d98a-45cd-4f28-b7f1-491649659338",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T21:59:35Z",
+    "intent": {
+      "name": "restartIntent",
+      "slots": {
+        "CPR": {
+          "name": "CPR",
+          "value": "breaths"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": " Now you will give 2 rescue breaths. Pay attention to the following:  1. Tilt the head back and lift the chin up. 2. Pinch the nose shut then make a complete seal over the person's mouth. 3. Blow in for about 1 second to make the chest clearly rise. 4. Give rescue breaths, one after the other. Note: If chest does not rise with rescue breaths, retilt the head and give another rescue breaths. when you are ready to begin, say 'ready'."
+    },
+    "card": {
+      "content": " Now you will give 2 rescue breaths. Pay attention to the following:  1. Tilt the head back and lift the chin up. 2. Pinch the nose shut then make a complete seal over the person's mouth. 3. Blow in for about 1 second to make the chest clearly rise. 4. Give rescue breaths, one after the other. Note: If chest does not rise with rescue breaths, retilt the head and give another rescue breaths. when you are ready to begin, say 'ready'.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": " Now you will give 2 rescue breaths. Pay attention to the following:  1. Tilt the head back and lift the chin up. 2. Pinch the nose shut then make a complete seal over the person's mouth. 3. Blow in for about 1 second to make the chest clearly rise. 4. Give rescue breaths, one after the other. Note: If chest does not rise with rescue breaths, retilt the head and give another rescue breaths. when you are ready to begin, say 'ready'."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "prevAnswer": " Now you will give 2 rescue breaths. Pay attention to the following:  1. Tilt the head back and lift the chin up. 2. Pinch the nose shut then make a complete seal over the person's mouth. 3. Blow in for about 1 second to make the chest clearly rise. 4. Give rescue breaths, one after the other. Note: If chest does not rise with rescue breaths, retilt the head and give another rescue breaths. when you are ready to begin, say 'ready'.",
+    "needDetail": true,
+    "step": 2,
+    "curFunction": "CPR",
+    "command": [
+      " ready.",
+      " how do I do chest compressions or breaths.",
+      " restart chest compressions or breaths.",
+      " restart.",
+      " stop CPR."
+    ]
+  }
+}
+
+input: restart chest compression
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.97fcb495-1ae2-4f56-b097-0a1a8a556d5a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": " Now you will give 2 rescue breaths. Pay attention to the following:  1. Tilt the head back and lift the chin up. 2. Pinch the nose shut then make a complete seal over the person's mouth. 3. Blow in for about 1 second to make the chest clearly rise. 4. Give rescue breaths, one after the other. Note: If chest does not rise with rescue breaths, retilt the head and give another rescue breaths. when you are ready to begin, say 'ready'.",
+      "needDetail": true,
+      "step": 2,
+      "curFunction": "CPR",
+      "command": [
+        " ready.",
+        " how do I do chest compressions or breaths.",
+        " restart chest compressions or breaths.",
+        " restart.",
+        " stop CPR."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.095d82b0-3015-40b2-a1cb-20309e3729d3",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:00:18Z",
+    "intent": {
+      "name": "restartIntent",
+      "slots": {
+        "CPR": {
+          "name": "CPR",
+          "value": "chest compression"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'."
+    },
+    "card": {
+      "content": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "prevAnswer": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'.",
+    "needDetail": true,
+    "step": 0,
+    "curFunction": "CPR",
+    "command": [
+      " ready.",
+      " how do I do chest compressions or breaths.",
+      " restart chest compressions or breaths.",
+      " restart.",
+      " stop CPR."
+    ]
+  }
+}
+
+input: how do I do chest compression
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.97fcb495-1ae2-4f56-b097-0a1a8a556d5a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'.",
+      "needDetail": true,
+      "step": 0,
+      "curFunction": "CPR",
+      "command": [
+        " ready.",
+        " how do I do chest compressions or breaths.",
+        " restart chest compressions or breaths.",
+        " restart.",
+        " stop CPR."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.4c7ed615-7bcb-42e4-aa9c-12c436d7b9ba",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:00:53Z",
+    "intent": {
+      "name": "HowToCPRIntent",
+      "slots": {
+        "CPR": {
+          "name": "CPR",
+          "value": "chest compression"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": " Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes."
+    },
+    "card": {
+      "content": " Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": " Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "prevAnswer": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'.",
+    "needDetail": true,
+    "step": 0,
+    "curFunction": "CPR",
+    "command": [
+      " ready.",
+      " how do I do chest compressions or breaths.",
+      " restart chest compressions or breaths.",
+      " restart.",
+      " stop CPR."
+    ]
+  }
+}
+
+input: how do I do breaths (rescue breaths)
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.97fcb495-1ae2-4f56-b097-0a1a8a556d5a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'.",
+      "needDetail": true,
+      "step": 0,
+      "curFunction": "CPR",
+      "command": [
+        " ready.",
+        " how do I do chest compressions or breaths.",
+        " restart chest compressions or breaths.",
+        " restart.",
+        " stop CPR."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.85bb4aaf-797d-4415-87c1-5bd6d6a6754e",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:02:02Z",
+    "intent": {
+      "name": "HowToCPRIntent",
+      "slots": {
+        "CPR": {
+          "name": "CPR",
+          "value": "breaths"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": " Pay attention to the following:  1. Tilt the head back and lift the chin up. 2. Pinch the nose shut then make a complete seal over the person's mouth. 3. Blow in for about 1 second to make the chest clearly rise. 4. Give rescue breaths, one after the other. Note: If chest does not rise with rescue breaths, retilt the head and give another rescue breaths."
+    },
+    "card": {
+      "content": " Pay attention to the following:  1. Tilt the head back and lift the chin up. 2. Pinch the nose shut then make a complete seal over the person's mouth. 3. Blow in for about 1 second to make the chest clearly rise. 4. Give rescue breaths, one after the other. Note: If chest does not rise with rescue breaths, retilt the head and give another rescue breaths.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": " Pay attention to the following:  1. Tilt the head back and lift the chin up. 2. Pinch the nose shut then make a complete seal over the person's mouth. 3. Blow in for about 1 second to make the chest clearly rise. 4. Give rescue breaths, one after the other. Note: If chest does not rise with rescue breaths, retilt the head and give another rescue breaths."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "prevAnswer": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'.",
+    "needDetail": true,
+    "step": 0,
+    "curFunction": "CPR",
+    "command": [
+      " ready.",
+      " how do I do chest compressions or breaths.",
+      " restart chest compressions or breaths.",
+      " restart.",
+      " stop CPR."
+    ]
+  }
+}
+
+input: stop CPR (quit CPR)
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.97fcb495-1ae2-4f56-b097-0a1a8a556d5a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'.",
+      "needDetail": true,
+      "step": 0,
+      "curFunction": "CPR",
+      "command": [
+        " ready.",
+        " how do I do chest compressions or breaths.",
+        " restart chest compressions or breaths.",
+        " restart.",
+        " stop CPR."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.d8c4b98d-f266-4c59-be26-24ba1df95123",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:02:39Z",
+    "intent": {
+      "name": "stopIntent",
+      "slots": {
+        "Scenario": {
+          "name": "Scenario",
+          "value": "CPR"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": " are you sure you want to stop?"
+    },
+    "card": {
+      "content": " are you sure you want to stop?",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": " are you sure you want to stop?"
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "prevAnswer": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'.",
+    "needDetail": true,
+    "stopRequest": true,
+    "step": 0,
+    "curFunction": "CPR",
+    "command": [
+      "Yes.",
+      "No."
+    ]
+  }
+}
+
+input: yes
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.97fcb495-1ae2-4f56-b097-0a1a8a556d5a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": " Now you will give 30 chest compressions. Pay attention to the following:  1. You must lay the person on firm, flat surface. 2. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minutes. when you are ready to begin, say 'ready'.",
+      "needDetail": true,
+      "stopRequest": true,
+      "step": 0,
+      "curFunction": "CPR",
+      "command": [
+        "Yes.",
+        "No."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.f20a6aa5-be91-4942-bb8c-fa85df0491ce",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:03:06Z",
+    "intent": {
+      "name": "AMAZON.YesIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "CPR stopped."
+    },
+    "card": {
+      "content": "CPR stopped.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "CPR stopped."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "command": [
+      " i need help with."
+    ]
+  }
+}
+
+input: No
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.97fcb495-1ae2-4f56-b097-0a1a8a556d5a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": "You will do cycles of CPR, but you should stop when you encounter one of the following situations: 1. You find an obvious sign of life, such as breathing. 2. An AED is ready to use. 3. Another trained responder or EMS personnel take over. 4. You are too exhausted to continue. 5. The scene becomes unsafe. when you are ready to begin, say 'ready'.",
+      "needDetail": true,
+      "stopRequest": true,
+      "step": -1,
+      "curFunction": "CPR",
+      "command": [
+        "Yes.",
+        "No."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.93891c57-d4f9-4fbd-9af2-4c4b41d2967b",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:04:04Z",
+    "intent": {
+      "name": "AMAZON.NoIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "cancelled stop request."
+    },
+    "card": {
+      "content": "cancelled stop request.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "cancelled stop request."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "prevAnswer": "You will do cycles of CPR, but you should stop when you encounter one of the following situations: 1. You find an obvious sign of life, such as breathing. 2. An AED is ready to use. 3. Another trained responder or EMS personnel take over. 4. You are too exhausted to continue. 5. The scene becomes unsafe. when you are ready to begin, say 'ready'.",
+    "needDetail": true,
+    "stopRequest": true,
+    "step": -1,
+    "curFunction": "CPR",
+    "command": [
+      " how do I do chest compressions or breaths.",
+      " restart chest compressions or breaths.",
+      " restart."
+    ]
+  }
+}
+
+input: don't know 
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.97fcb495-1ae2-4f56-b097-0a1a8a556d5a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": "You will do cycles of CPR, but you should stop when you encounter one of the following situations: 1. You find an obvious sign of life, such as breathing. 2. An AED is ready to use. 3. Another trained responder or EMS personnel take over. 4. You are too exhausted to continue. 5. The scene becomes unsafe. when you are ready to begin, say 'ready'.",
+      "needDetail": true,
+      "stopRequest": true,
+      "step": -1,
+      "curFunction": "CPR",
+      "command": [
+        " how do I do chest compressions or breaths.",
+        " restart chest compressions or breaths.",
+        " restart."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.b2f320ef-069c-47a6-9c3a-dbfd20730352",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:05:17Z",
+    "intent": {
+      "name": "DontKnowIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Here are the available commands.  1.  how do I do chest compressions or breaths. 2.  restart chest compressions or breaths. 3.  restart."
+    },
+    "card": {
+      "content": "Here are the available commands.  1.  how do I do chest compressions or breaths. 2.  restart chest compressions or breaths. 3.  restart.",
+      "title": "First Aid",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "Here are the available commands.  1.  how do I do chest compressions or breaths. 2.  restart chest compressions or breaths. 3.  restart."
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "prevAnswer": "You will do cycles of CPR, but you should stop when you encounter one of the following situations: 1. You find an obvious sign of life, such as breathing. 2. An AED is ready to use. 3. Another trained responder or EMS personnel take over. 4. You are too exhausted to continue. 5. The scene becomes unsafe. when you are ready to begin, say 'ready'.",
+    "needDetail": true,
+    "stopRequest": true,
+    "step": -1,
+    "curFunction": "CPR",
+    "command": [
+      " how do I do chest compressions or breaths.",
+      " restart chest compressions or breaths.",
+      " restart."
+    ]
+  }
+}
+
+
+input: stop
+lambda request:
+{
+  "session": {
+    "sessionId": "SessionId.52c19849-7d22-4120-8bf2-2550487e0d19",
+    "application": {
+      "applicationId": "amzn1.ask.skill.be0aedf1-ba5f-4094-b0aa-42c4c85a84ff"
+    },
+    "attributes": {
+      "prevAnswer": " when you are done with 30 compressions, say 'done'. You should follow my rhythm.",
+      "needDetail": true,
+      "step": 1,
+      "curFunction": "CPR",
+      "command": [
+        " done.",
+        " how do I do chest compressions or breaths.",
+        " restart chest compressions or breaths.",
+        " restart.",
+        " stop CPR."
+      ]
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AE3D2ZKEU2HA46ASRWTO4GI4TTR33BZJZBHF3LTIQGBD2SBLYLOBF27ERZBCS77A27OXPSPAGDANI2PID5UGRP74ZDMRH6FI6Z736ITTI4GPNRTM4LGCYUU2XT66SOG2XYVGIQLSKIW3ZUJ2BTDWHAQPYKRF4HUUFZKVJG6GZRDFWABF4NDDPFZUBTITGKVTNEKNDMTLBLCVNOQ"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.e87af5b5-6bce-4c39-aeac-c3b61824ccc7",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:18:43Z",
+    "intent": {
+      "name": "AMAZON.StopIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+lambda response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Good bye!"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": ""
+      }
+    },
+    "shouldEndSession": true
+  },
+  "sessionAttributes": {}
+}
